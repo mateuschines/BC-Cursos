@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+body {
+	padding-top: 75px;
+	font-family: "Open Sans";
+	font-size: 14px;
+	overflow-x: hidden;/*vc pode colocar ou tirar barra de rolagem*/
+	/*overflow-x é horizolta e y na vertical*/
+}
+
+h1 {
+	color: #00a3d9;
+	margin: 25px;
+	font-size: 2em;
+	font-weight: 800;
+}
+
+footer {
+	color: #fff;
+	padding: 20px 0;
+	font-size: 1.3em;
+}
+footer .row i {
+	font-size: 4em;
+	margin: 10px;
+}
+
+footer p a i {
+	font-size: 2em;
+	color: #fff;
+	transition: all 0.5s;
+	margin: 10px;
+}
+
+footer p a i:hover {
+	color: green;
+	font-size: 2.5em;
+	text-decoration: none;
+}
+
+hr {
+	border: 1px dotted #fff;/*dotted fica pontilhado dashed e o solid*/
+}
+
+.navbar-light {
+	box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+	background: #FFF;
+}
+
+.dropdown:hover>.dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu {
+	margin-top: 10px;
+	border-top: 5px solid #000;
+}
+
+.carousel-inner .carousel-item img {
+	opacity: 0.5;
+}
+
+.carousel {
+	background: #000;
+}
+
+.carousel-caption {
+	background: rgba(255,255,255,0.3);
+}
+
+.card .card-title, .card p{
+	height: 70px;
+}
+
+.card {
+	margin-bottom: 10px;
+/*
+	border-color: #668;
+	border-radius: 10px;
+*/
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	transition: all 0.5s;
+}
+
+.card:hover {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+#depoimentos {
+	background: url(../imagens/depoimento.jpg) fixed;
+	padding: 50px 0;
+	background-size: cover;
+}
+
+#depoimentos p {
+	font-size: 1.3em;
+	color: #FFF;
+	margin: 50px;
+}
+
+#depoimentos img {
+	border: 5px solid #fff;
+	width: 150px;
+}
+
+#news, #cursos {
+	padding: 50px 0;
+}
